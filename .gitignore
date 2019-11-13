@@ -1,3 +1,6 @@
+# Include the .npmrc in this repo.
+!.npmrc
+
 __tests__/runner/*
 
 # comment out in distribution branches

@@ -18,6 +18,7 @@ npm run build && git add lib && git commit -m "build"
 3. Commit node_modules. This is required for the action to be usable by other
    workflows.
 ```
+npm ci --only=production
 git add -f node_modules
 git commit -m "node_modules"
 git push
