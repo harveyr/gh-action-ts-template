@@ -1,10 +1,12 @@
 # Include the .npmrc in this repo.
 !.npmrc
 
-__tests__/runner/*
-
-# comment out in distribution branches
+# we'll force-add the following in release branches:
+lib/
 node_modules/
+
+
+__tests__/runner/*
 
 # Rest pulled from https://github.com/github/gitignore/blob/master/Node.gitignore
 # Logs
