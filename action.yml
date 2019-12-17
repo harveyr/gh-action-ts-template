@@ -1,10 +1,11 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: FIXME: Your name here
+description: FIXME: Provide a description here
+author: FIXME: Your name or organization here
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  FIXME:
+  myInput:
+    description: input description here
+    default: default value if applicable
 runs:
-  using: 'node12'
-  main: 'lib/main.js'
+  using: node12
+  main: dist/main.js
