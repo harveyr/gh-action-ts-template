@@ -24,6 +24,8 @@ jobs:
 
     - run: npm test
 
+    # zeit is a documented alternative to publishing node_modules:
+    # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action
     - run: npm run dist
 
     - uses: ./
