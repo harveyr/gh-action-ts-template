@@ -26,3 +26,8 @@ jobs:
     - run: npm run dist
 
     - uses: ./
+
+    - uses: harveyr/gh-action-publish@releases/v0
+      with:
+        dirs: dist
+      if: contains(github.ref, 'refs/heads/versions/' )
